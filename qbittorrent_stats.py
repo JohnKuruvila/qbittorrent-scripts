@@ -1,3 +1,4 @@
+# Gets qBittorrent stats and writes them to an InfluxDB2 instance.
 import requests
 import json
 from datetime import datetime

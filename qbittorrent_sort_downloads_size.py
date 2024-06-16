@@ -1,3 +1,6 @@
+# Prioritizes all active downloads based on the file size. Torrent with the largest file size gets the least priority and the smallest gets the most.
+# Could potentially speed things up when you have a large number of torrents downloading and you need completed ones ASAP.
+
 import requests
 import json
 import time

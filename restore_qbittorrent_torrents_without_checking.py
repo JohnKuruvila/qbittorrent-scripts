@@ -1,3 +1,6 @@
+# Skips re-checking file integrity when you add a lot of torrents to your client at the same time with the files already existing.
+# Re-checking torrents could take forever if you have TBs of data. Happened to me a couple of times when I wiped my OS and needed to add all my torrents to the client again.
+
 import requests
 import json
 import os
